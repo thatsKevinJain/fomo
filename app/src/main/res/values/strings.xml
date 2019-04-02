@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">FOMO</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Custom Strings -->
+    <string name="overview_header">Overview</string>
+    <string name="app_developers">App Developers</string>
+    <string name="todays_phone_usage">Today\'s Phone Usage</string>
+    <string name="fomo_score">Today\'s Score</string>
+    <string name="total_times_contacted">Total Times Contacted</string>
+    <string name="total_phone_call_duration">Today\'s Phone Calls Duration</string>
+    <string name="most_contacted_person">Most Contacted Person</string>
+    <string name="proceed">Proceed</string>
+    <string name="launch_count">opened %d times</string>
+    <string name="version">Version %s</string>
+    <string name="connect_on_linkedin">Connect with us on LinkedIn</string>
+
+    <!-- Help Messages-->
+    <string name="help_splash">
+        This app helps you to understand your usage patterns and help beat down phone addiction.
+        \n\nYou need to let us access your contacts and phone data for this app to work.
+        \n\nWe don\'t send any personal information to our servers.</string>
+    <string name="help_total_times_contacted">This page will show the total number of times you have contacted each person
+        via Phone, Messages and WhatsApp starting from the day of phone purchase or last format.
+        \n\nThe data may be redundant due to unique data collection strategies of different devices.</string>
+    <string name="help_total_phone_call_duration">
+        This page will show the total duration of each phone call you have placed today.
+        \n\nThe data resets after 12 AM everyday.</string>
+    <string name="help_todays_phone_usage">
+        This page will show the total duration of each app you have used today.
+        \n\nIt also shows the number of times you launch an app in a day.
+        \n\nThe data resets after 12 AM everyday.</string>
+    <string name="help_fomo_score">
+        This metric shows you the of measure of your FOMO (Fear of missing out)  levels.
+        \nIt is calculated based on your App Usage and Phone Calls Duration.
+        \n\nA lower score is equivalent to lower phone usage thus allowing better productivity.
+        \n\nAn average phone user has a score of 150(~ 4 hours) or more.</string>
+    <string name="about_us_description">“Nomophobia” was coined in 2008, by a UK based research team to signify “An irrational fear of being without your mobile phone or being unable to use your phone for some reason, such as the absence of a signal or running out of minutes or battery power”.
+        \nAlmost ten years since then, Nomophobia is today more rampant than ever but can no longer be regarded as an ‘irrational fear’. Today our phones have become such indispensable and unextractable part of our very being that not finding your phone for more than 10 secs is enough to induce nationwide panic. This is so true for almost all of us that it is actually scary.
+        \nFear of being away from our phones is really the Fear of Missing Out, as our phone is what connects us to our friends, to our family and to the world. Or so we have been led to believe. The Truth is, today our phone with all the addicting apps is what disconnects us from our friends, our family and the reality around us.
+        \nMake no mistake, a cellphone is a device of colossal utility and importance. It’s our Fear of Missing Out (FOMO) that has turned it into a debilitating, alienating and ability-killing addiction. And that is where this best cell-phone-addiction-beating application will help you out.
+        \nWe are here with FOMO to help you defeat your own Fear of Missing Out, because we believe that every addict, even an app addict, is always searching for a cure, for freedom from their addiction.
+    </string>
+    <string name="quote">"I fear the day that technology will surpass our human interaction.\nThe world will have a generation of idiots."</string>
+    <string name="albert">~ Albert Einstein</string>
+
+    <!-- Fonts and Transitions-->
+    <string name="font_family_medium">sans-serif-medium</string>
+    <string name="font_family_regular">sans-serif</string>
+    <string name="font_family_light">sans-serif-light</string>
+    <string name="transition">Transition</string>
+</resources>

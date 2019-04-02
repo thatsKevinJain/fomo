@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@string/font_family_medium"
+        android:gravity="center"
+        android:padding="30sp"
+        android:text="@string/app_name"
+        android:textColor="@color/WHITE"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/helpSplashTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@string/font_family_regular"
+        android:gravity="center"
+        android:padding="8sp"
+        android:text="@string/help_splash"
+        android:textAlignment="center"
+        android:textColor="@color/WHITE"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="18sp"
+        android:visibility="visible">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/proceedButton"
+            android:layout_width="100dp"
+            android:layout_height="40sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_proceed_button"
+            android:elevation="4sp"
+            android:src="@drawable/ic_help"
+            android:text="@string/proceed"
+            android:textColor="@color/BLACK"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</LinearLayout>
